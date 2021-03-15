@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+.content-box{
+  background-color:black;
+  color: white;
+  text-align: center;
+  padding: 20px 200px;
+}
+
+.content-box > h1{
+  margin-bottom: 30px;
+}
+
+.slider{
+  position: relative;
+}
+
+.slider img{
+  width:700px;
+  height: auto;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.content-box > p{
+  text-align: left;
+}
+
+.slider-arrow{
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: 900;
+}
+
+.prev-arrow{
+  position:absolute;
+  top: 50%;
+  left: -30px;
+}
+
+.next-arrow{
+  position:absolute;
+  top: 50%;
+  right: -30px;
+}
